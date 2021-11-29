@@ -3,6 +3,7 @@ import Counter from './components/Counter';
 import CounterBy from './components/CounterBy';
 import CounterEffect from './components/CounterEffect';
 import CounterWithCustomHook from './components/CounterWithCustomHook';
+import CounterWithReducer from './components/CounterWithReducer';
 
 function App() {
   return (
@@ -15,7 +16,9 @@ function App() {
       <hr />
       <CounterEffect />      
       <hr />
-      <CounterWithCustomHook /> 
+      <CounterWithCustomHook />
+      <hr />
+      <CounterWithReducer />
     </Fragment>
   );
 }
