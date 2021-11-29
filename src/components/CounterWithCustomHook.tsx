@@ -1,11 +1,8 @@
-import { useLayoutEffect, useRef, useState } from "react";
-import { gsap } from "gsap";
 import useCounter from "../hooks/useCounter";
-
 
 const CounterWithCustomHook = () => {
     
-    const { counter, counterHTML, handleClick } = useCounter();
+    const { counter, counterHTML, handleClick } = useCounter(10, false);
 
     return (
         <>
