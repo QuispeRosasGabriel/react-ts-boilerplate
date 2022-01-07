@@ -52,6 +52,7 @@ const CounterWithReducer = () => {
       <h1>Counter Reducer: {counter}</h1>
       <button onClick={onReset}>Reset</button>
       <button onClick={() => increaseBy(1)}>Increase</button>
+      <button onClick={() => increaseBy(5)}>Increase</button>
     </>
   );
 };
